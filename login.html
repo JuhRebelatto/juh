@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang='pt-BR'>
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+<link rel="stylesheet" href="indexlog.css">
+</head>
+<body>
+
+
+
+<header>
+
+
+<section>
+<a href="index.html"><img  class="pagi" src='img/pi.jpg'height="40" width="40"></a>
+</section>
+
+
+<section>
+<link rel="stylesheet" href="indexlog.css">
+</section>
+
+
+<section>
+<h1><img  src='img/log.png'height="150" width="150"></a></h1>
+</section>
+
+
+</header>
+
+<main>
+
+<form action="/login.php" method="post">
+
+
+
+<P>
+<label for="e">Nome completo:</label>
+<input type="text" name="nome" id="nome" required pattern="[aA-zZ\s]+$">
+</p>
+
+<p>
+<label for="e">indique sua idade</label>
+<input type="number" name="idade" id="idade" pattern="[0-9]+$">
+</p>
+
+<p>
+<label for="e">indique seu telefone</label>
+<input type="tel" name="telefone" id="telefone" maxlength="11" pattern="[0-9]+$">
+</p>
+
+<p>
+<label for="e">indique seu email:</label>
+<input type="email" name="e" id="e">
+</p>
+
+<p>
+<label for="e">indique sua senha:</label>
+<input type="password" name="s" id="s">
+</P>
+
+<p>
+<label for="texto>"> Quais tipos de filme vc gosta de assistir ?</label>
+</p>
+
+<p>
+<textarea name="texto" id="texto" ></textarea>
+<input type="submit" value="entrar">
+
+</form>
+</p>
+
+<form action="/login.php" method="post">
+<p>
+<input type="button" valus="entrar sem conta">
+</p>
+
+<p>O login não é obrigatório.</p>
+
+</form>
+</main>
+
+</html>
+</body>
